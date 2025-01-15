@@ -175,13 +175,13 @@ scoped only to the .card elemnts inside the .projects section */
 .main-content {
   grid-area: main;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
   grid-template-rows: auto auto;
 }
 
 section {
   background-color: #e2e8f0;
-  padding: 20px;
+  padding: 17px;
   
 }
 
